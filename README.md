@@ -12,5 +12,6 @@ Open SG to 0.0.0.0/0 allowing port for HTTP, HTTPS, SQL, and ssh... ingress and 
 In summary, this terraform allows you to deploy 2 ec2 instances and 1 SG in any region and AZs in AWS. You can set the values as parameters for example in a Jenkins pipeline.
 
 We can work with multiple providers as well where we can work with multi profiles which means AWS accounts.
+Here I simulated eu-west-2 for dev and eu-west-1 for prod.
 
 Thank you, Luciano.

@@ -1,6 +1,6 @@
 # terraforms2
 
-Those Terraforms will deploy 2 EC2 instances from a specific AMI ID set as a string variable, VPC, AZs and Region also are set as variable which allows you run this code in any account, in any AWS region as well. All you need is a VPC and the subnets for each AZ, and your local AWS profile configured from where you want to run this Terraform apply, ETC...
+Those Terraforms will deploy 2 EC2 instances from a specific AMI ID set as a string variable, VPC, AZs and Region also are set as variable which allows you run this code in any account, in any AWS region as well. All you need is a VPC and the subnets for each AZ, keypair and your local AWS profile configured from where you want to run this Terraform apply, ETC...
 
 Examples:
 eu-west-1 region and eu-west1-a and eu-west1-c for availability zones

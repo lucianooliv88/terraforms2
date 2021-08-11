@@ -9,7 +9,7 @@ Also, terraform state will be placed into the S3 bucket for SGs states.
 
 Open SG to 0.0.0.0/0 allowing port for HTTP, HTTPS, SQL, and ssh... ingress and egress.
 
-In summary, this terraform allows you to deploy 2 ec2 instances and 1 SG in any region and AZs in AWS. You can set the values as parameters for example in a Jenkins pipeline.
+In summary, this terraform allows you to deploy 2 ec2 instances and 1 SG in any region and AZs in AWS.
 
 We can work with multiple providers as well where we can work with multi profiles which means AWS accounts.
 Here I simulated eu-west-2 for dev and eu-west-1 for prod using workspace.

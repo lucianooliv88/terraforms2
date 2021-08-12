@@ -1,4 +1,4 @@
-# Terraforms2 my playground
+# Terraforms2 my playground with Jenkins
 
 Those Terraforms will deploy 2 EC2 instances from a specific AMI ID set as a string variable, VPC, AZs and Region also are set as variable which allows run this code in any account, in any AWS region as well. Is necessary a VPC and the subnets for each AZ, keypair and a local AWS profile or (role) configured from where it will run this Terraform, init, plan, apply, ETC...
 

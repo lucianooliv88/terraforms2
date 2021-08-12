@@ -15,7 +15,9 @@ It can work with multiple providers as well, where it can work with multi profil
 Here I simulated eu-west-2 for dev and eu-west-1 for prod using workspace.
 
 Finally, I also added a JenkinsFile where I created a pipeline to auto approve deploy it using the variables as parameters.
-After, we can replace apply to destroy. There is much to create over here, but that is all I want to share for a while...
+After, we can replace apply to destroy. 
+
+There is a lot to share, improve and create over here, but that is all I want to share for a while...
 
 Thanks, bye-bye now.
 

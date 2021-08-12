@@ -14,4 +14,9 @@ In summary, this terraform allows you to deploy 2 ec2 instances and 1 SG in any 
 We can work with multiple providers as well where we can work with multi profiles which means AWS accounts.
 Here I simulated eu-west-2 for dev and eu-west-1 for prod using workspace.
 
-Thank you, Luciano.
+Finally, I also added a JenkinsFile where I created a pipeline to auto approve deploy it using the variables as parameters.
+After, we can replace apply to destroy. There is much to create over here, but that is all I want to share for a while...
+
+Thanks, bye-bye now
+
+by Luciano.

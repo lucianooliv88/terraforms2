@@ -13,3 +13,7 @@ variable "aza_name" {
 variable "azc_name" {
   type = string
 }
+
+variable "region" {
+  type = string
+}
